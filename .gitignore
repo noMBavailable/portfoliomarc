@@ -1,0 +1,27 @@
+# Ignore the entire Assets folder except the Scripts folder
+Assets/*
+!Assets/Scripts/
+!Assets/Scripts/**
+
+# Ignore Unity-specific folders
+Library/
+Temp/
+Obj/
+Build/
+Logs/
+UserSettings/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore VS-specific files
+.vs/
+.vscode/
+.idea/
+
+# Ignore Unity project files not needed for version control
+*.csproj
+*.sln
+*.user
+*.userprefs
